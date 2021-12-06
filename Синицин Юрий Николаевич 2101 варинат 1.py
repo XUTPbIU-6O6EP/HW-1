@@ -14,7 +14,6 @@ def decorat(func):
         func(*args)
     return name
 
-
 @vremya
 @decorat
 def ploshad(length, width):
@@ -25,8 +24,6 @@ def ploshad(length, width):
 def padenie(d):
     speed = math.sqrt(0 ** 2 + 2 * 9.8 * d)
     print('Финальная скорость при падении =', speed, 'м/с')
-
-
 
 length, width = float(input('Введите длину садового участка в футах: ')), float(input('Введите ширину садового участка в футах: '))
 ploshad(length, width)
